@@ -10,14 +10,58 @@
 </script>
 
 <template>
-  <div class="hero">
-    <div>
-      <h1 class="title">
-        ezMed
-      </h1>
-      <h2 class="subtitle">
-        Eum velit, molestiae modi debitis iusto?
-      </h2>
+  <div>
+    <div class="hero">
+      <div class="container">
+        <h1 class="title">
+          ezMed
+        </h1>
+        <h2 class="subtitle">
+          Eum velit, molestiae modi debitis iusto?
+        </h2>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <h3>Keep Track of</h3>
+        <ul>
+          <li>Symptoms</li>
+          <li>Medication</li>
+          <li>Exercise</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <!-- use srcset and other queries to get the other sizes  -->
+        <img
+          src="/images/homepage/stethoscope.jpg"
+          alt="Image of a stethoscope."
+        >
+        <h3>Share your symptoms</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe dolor est,
+          officiis quasi numquam ipsam necessitatibus quas magni ex perspiciatis,
+          ab eius similique quisquam suscipit error, quo voluptate asperiores! Aperiam?
+        </p>
+      </div>
+    </div>
+    
+    <div class="main">
+      <div class="container">
+        <img
+          src="/images/homepage/woman-wearing-mask.jpg"
+          alt="Image of a stethoscope."
+        >
+        <h3>Protect yourself</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe dolor est,
+          officiis quasi numquam ipsam necessitatibus quas magni ex perspiciatis,
+          ab eius similique quisquam suscipit error, quo voluptate asperiores! Aperiam?
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -33,23 +77,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.title {
-  font-family: var(--theme-font-heading);
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: var(--theme-white);
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: var(--theme-white-alt);
-  word-spacing: 5px;
-  padding-bottom: 15px;
 }
 
 @media (orientation: portrait) and (max-width: 40em) {

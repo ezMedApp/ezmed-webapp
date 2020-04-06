@@ -1,0 +1,47 @@
+// TODO           : download fonts *if we're going to keep them
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+h1 {
+  font-size: 6.25em;
+}
+
+h2 {
+  font-size: 3.625em;
+}
+
+h3 {
+  font-size: 2.625em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--theme-font-heading);
+}
+
+
+.title {
+  font-family   : var(--theme-font-heading);
+  display       : block;
+  font-weight   : 300;
+  color         : var(--theme-white);
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight   : 300;
+  font-size     : 42px;
+  color         : var(--theme-white-alt);
+  word-spacing  : 5px;
+  padding-bottom: 15px;
+}
