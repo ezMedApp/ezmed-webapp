@@ -6,6 +6,10 @@
 
   --theme-gutter: .75em;
 
-  --theme-white    : white;
-  --theme-white-alt: hsla(0, 0%, 85%, 1);
+  --theme-main-color         : white;
+  --theme-main-color-alt     : hsla(0, 0%, 85%, 1);
+  --theme-secondary-color    : #3eaf7c;
+  --theme-secondary-color-alt: #3eaf7c; // should be darker
+  --theme-tertiary-color     : #2d2d2d;
+  --theme-tertiary--color-alt: #2d2d2d; // should be darker
 }

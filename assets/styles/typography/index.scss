@@ -26,7 +26,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--theme-font-heading);
+  font-family  : var(--theme-font-heading);
+  line-height  : 1.5;
+  margin-top   : .5em;
+  margin-bottom: .5em;
 }
 
 
@@ -34,14 +37,14 @@ h5 {
   font-family   : var(--theme-font-heading);
   display       : block;
   font-weight   : 300;
-  color         : var(--theme-white);
+  color         : var(--theme-main-color);
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight   : 300;
   font-size     : 42px;
-  color         : var(--theme-white-alt);
+  color         : var(--theme-main-color-alt);
   word-spacing  : 5px;
   padding-bottom: 15px;
 }
